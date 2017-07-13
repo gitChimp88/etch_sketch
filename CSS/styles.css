@@ -1,0 +1,90 @@
+*:focus {
+    outline: 0;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  color: #d46a6a;
+}
+
+.squares {
+  background-color: white;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  outline: 1px solid black;
+  color: transparent;
+}
+
+.container div{
+  line-height: 0
+}
+
+.black {
+  background-color: black;
+}
+
+.container {
+  margin: 0 auto;
+  border: solid 10px white;
+  
+  height: 650px;
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px #888888;
+  
+  
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  
+  
+}
+
+.but {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  background-color: #f4f3f3;
+  font-size: 20px;
+  font-family: 'Acme';
+  border-radius: 20px;
+  box-shadow: -5px 15px 50px rgba(84,79,111, .4);
+  transition: .3s;
+  border-color: #746c6c;
+  
+  
+  
+}
+
+.one {
+  margin-right: 10%;
+}
+
+
+
+.cont {
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  bottom: 160px;
+}
+
+.one:hover {
+  position: relative;
+  bottom: 1px;
+  box-shadow: -5px 15px 50px rgba(84,79,111, .2);
+  color: brown;
+}
+
+.two:hover {
+  position: relative;
+  bottom: 1px;
+  box-shadow: -5px 15px 50px rgba(84,79,111, .2);
+  color: brown;
+}
+
+
+
