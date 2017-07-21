@@ -19,12 +19,34 @@ for (i = 0; i < 16; i++)
     $('.squares').height(500/16);
   
   //setting drawing function
-  $('.squares').mouseenter(function() {
+  
+    $('.squares').mouseenter(function() {
     $(this).css("background-color", "#d46a6a");
+   }); 
+  
+  
+  $('.blue').click(function() {
+    $('.squares').mouseenter(function() {
+      $(this).css("background-color", "blue")
+    });
+  });
+   $('.red').click(function() {
+    $('.squares').mouseenter(function() {
+      $(this).css("background-color", "#d46a6a")
+    });
   });
   
+  
+  $(".squares").click(function () {
+   $(this).css("background-color", "white");
+});
+   
+  
+  
+  
+  
   //setting clear pad
-  $('.but').click(function() {
+  $('.one').click(function() {
     $('.squares').css("background-color", "white");
      
 
